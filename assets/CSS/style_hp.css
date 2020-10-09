@@ -1,0 +1,14 @@
+/*CSS HOme Page*/
+
+html{
+    background: no-repeat url("../img/Background/background-HP.jpg");
+    background-size: 100%;
+}
+
+img
+{
+   width: 3%;
+   height: auto;
+}
+
+
