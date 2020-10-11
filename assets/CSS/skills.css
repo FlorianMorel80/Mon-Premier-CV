@@ -1,15 +1,18 @@
 html {
-    background: repeat url(../img/Background/pexels-mudassir-ali-3970396.jpg);
+    background: repeat url(../img/Background/background-HP.jpg);
     background-size: 100%;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     font-size: 1em;
+    font-weight: bold;
 }
 
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 #blocskills {
@@ -65,4 +68,38 @@ header {
     height: auto;
     border-radius: 30px;
     padding: 10px 10px 10px 10px;
+}
+
+
+/*Progress*/
+
+.progress {
+    background-color: #d8d8d8ce;
+    height: 30px;
+    width: 200px;
+    border-radius: 50px;
+    color: rgb(89, 0, 255);
+    font-weight: bold;
+}
+
+.progress-done1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #7088f2, #72ffd5);
+    border-radius: 50px;
+    height: 100%;
+    width: 70%;
+    opacity: 1;
+}
+
+.progress-done2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #7088f2, #72ffd5);
+    border-radius: 50px;
+    height: 100%;
+    width: 30%;
+    opacity: 1;
 }
