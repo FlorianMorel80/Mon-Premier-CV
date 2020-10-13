@@ -14,7 +14,6 @@ body {
     padding: 0;
     height: 100%;
     display: flex;
-
 }
 
 #blocportfolio {
@@ -41,7 +40,6 @@ header {
     background-color: rgba(255, 214, 81, 0.651);
     border-radius: 60px;
 }
-
 
 .main-nav ul {
     display: flex;
@@ -74,104 +72,104 @@ header {
 }
 
 #portfolio {
-    
     margin-top: 3%;
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(128, 128, 128, 0.377);
-    
 }
 
-#blocleft {
-    
-    width: 50%;
-    height: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgba(98, 92, 205, 0.486);
-  
-}
-
-.title>h2{
+.title {
     height: 80px;
     width: 100%;
+    font-size: 1.2em;
     color: rgba(255, 214, 81, 0.651);
-  
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
-
 }
 
+#blocleft {
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
-#blocright 
-{
+#bloclefttop {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    width: 100%;
+    height: 500px;
+}
+
+#kroline>img {
+    width: 80%;
+}
+
+#login>img {
+    width: 80%;
+}
+
+#blocright {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     height: 800px;
-    background-color: rgba(205, 92, 92, 0.523);
-   
-    
 }
 
-#blocrighttop
-{
+#blocrighttop {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
     width: 100%;
-    height: 400px;
- 
+    height: 500px;
 }
 
-#blocVague
-{
+#blocVague {
     width: 30%;
-    height: 50%;
-    background-color: khaki;
+    height: 100%;
 }
-#blocVague>img{
+
+#blocVague>img {
     width: 100%;
     height: 100%;
-    
 }
 
-
-#blocJazz
-{
+#blocJazz {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
-    width: 70%;
-    height: 50%;    
-    background-color: rgba(126, 252, 0, 0.603);
-    
+    width: 20%;
+    height: 100%;
 }
 
-#jazzTop
-{
-    
+#jazzTop {
     height: 50%;
-    background-color: lightcoral;
 }
 
-#jazzTop>img
-{
-height: 100%;
-
-
+#jazzTop>img {
+    height: 100%;
 }
-#jazzBot
 
-{
+#jazzBot {
     height: 50%;
-    background-color: lightskyblue;
 }
-#jazzBot>img
-{
+
+#jazzBot>img {
+    height: 100%;
+}
+
+#banniere {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    height: 100%;
+}
+
+#banniere>img {
     height: 100%;
 }
