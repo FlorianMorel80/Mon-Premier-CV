@@ -1,24 +1,35 @@
 html {
-    background: repeat url(../img/Background/pexels-mudassir-ali-3970396.jpg);
+    background: repeat url(../img/Background/background-HP.jpg);
     background-size: 100%;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: serif;
     font-size: 1em;
+    font-weight: bold;
+    height: 100%;
 }
 
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    display: flex;
+
 }
 
-#blocskills {
+#blocportfolio {
     width: 100%;
     height: 800px;
 }
 
+header {
+    height: 60px;
+    width: 50%;
+    padding-left: 25%;
+}
+
 .container {
-    width: 960px;
+    width: 100%;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -31,11 +42,6 @@ body {
     border-radius: 60px;
 }
 
-header {
-    height: 60px;
-    width: 50%;
-    padding-left: 25%;
-}
 
 .main-nav ul {
     display: flex;
@@ -65,4 +71,107 @@ header {
     height: auto;
     border-radius: 30px;
     padding: 10px 10px 10px 10px;
+}
+
+#portfolio {
+    
+    margin-top: 3%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(128, 128, 128, 0.377);
+    
+}
+
+#blocleft {
+    
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(98, 92, 205, 0.486);
+  
+}
+
+.title>h2{
+    height: 80px;
+    width: 100%;
+    color: rgba(255, 214, 81, 0.651);
+  
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#blocright 
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 800px;
+    background-color: rgba(205, 92, 92, 0.523);
+   
+    
+}
+
+#blocrighttop
+{
+    display: flex;
+    width: 100%;
+    height: 400px;
+ 
+}
+
+#blocVague
+{
+    width: 30%;
+    height: 50%;
+    background-color: khaki;
+}
+#blocVague>img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+#blocJazz
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%;
+    height: 50%;    
+    background-color: rgba(126, 252, 0, 0.603);
+    
+}
+
+#jazzTop
+{
+    
+    height: 50%;
+    background-color: lightcoral;
+}
+
+#jazzTop>img
+{
+height: 100%;
+
+
+}
+#jazzBot
+
+{
+    height: 50%;
+    background-color: lightskyblue;
+}
+#jazzBot>img
+{
+    height: 100%;
 }
