@@ -24,20 +24,41 @@
                 </nav>
             </div>
         </header>
-        <div id="form">
+        <div id="formulaire">
             <form action="contact.php" method="POST">
                 <fieldset>
                     <legend>Contact</legend>
-                    <input type="radio" name="sexe" value="Madame" required>
-                    <label for="Madame">Madame</label>
 
-                    <input type="radio" name="sexe" value="Monsieur" required>
-                    <label for="Monsieur">Monsieur</label>
+                    <ol>
+                        <li>
+                            <input type="radio" name="sexe" id="madame" value="Madame" required>
+                            <label for="madame">Madame</label>
 
+                            <input type="radio" name="sexe" id="monsieur" value="Monsieur" required>
+                            <label for="monsieur">Monsieur</label>
+                        </li>
+                        <li>
+                            <label for="nom">Nom :</label>
+                            <input type="text" name="nom" id="nom" placeholder="Nom" required />
+                        </li>
+                        <li>
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" name="prenom" id="prenom" placeholder="Prénom" required />
+                        </li>
+                        <li>
+                            <label for="mail">Adresse mail :</label>
+                            <input type="email" name="mail" id="mail" placeholder="Adresse mail" required />
+                        </li>
+                    </ol>
+                        <label for="message">Votre message :</label>
+                        <textarea rows="3" id="message" required></textarea>
+                        
+                        <input type="submit" value="Send" />
+                    
                 </fieldset>
-                <!--http://css.mammouthland.net/formulaire-form-input-css.php-->
-
-
-
             </form>
         </div>
+    </div>
+</body>
+
+</html>
